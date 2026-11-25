@@ -66,7 +66,7 @@
 
 Agent Groundcrew provides a human field services MCP server and REST API that enables AI agents and swarms to submit tasks, receive quotes, handle payment checkout, and track execution of real‑world work such as site photography, logistics, procurement and project management. The service offers transparent pricing, pseudonymous token‑based authentication, and a documented OpenAPI contract. It connects software‑defined intent with on‑the‑ground human execution, delivering evidence and reports back to the calling agent.
 
-**Areas:** Field Services · Human Execution · MCP · Payments · REST API
+**Areas:** Field Service Management · Human Execution · MCP · Payments · REST API
 
 ## agentgroundcrew-com on APIs.io
 
@@ -80,6 +80,12 @@ Everything profiled for agentgroundcrew-com is published on APIs.io rather than 
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [agentgroundcrew-com-mcp.yml](https://apis.io/servers/agentgroundcrew-com/agentgroundcrew-com-mcp-yml/)
+
 #### JSON-LD (1)
 
 Linked-data contexts for the provider's vocabulary.
@@ -90,26 +96,26 @@ Linked-data contexts for the provider's vocabulary.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Agentgroundcrew Com Authentication](https://apis.io/security/agentgroundcrew-com/agentgroundcrew-com-authentication/)
-- [Agentgroundcrew Com Domain Security](https://apis.io/security/agentgroundcrew-com/agentgroundcrew-com-domain-security/)
+- [agentgroundcrew-com Authentication](https://apis.io/security/agentgroundcrew-com/agentgroundcrew-com-authentication/)
+- [agentgroundcrew-com Domain Security](https://apis.io/security/agentgroundcrew-com/agentgroundcrew-com-domain-security/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [Agentgroundcrew Com Scopes](https://apis.io/scopes/agentgroundcrew-com/agentgroundcrew-com-scopes/)
+- [agentgroundcrew-com Scopes](https://apis.io/scopes/agentgroundcrew-com/agentgroundcrew-com-scopes/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Agentgroundcrew Com Plans Pricing](https://apis.io/plans/agentgroundcrew-com/agentgroundcrew-com-plans-pricing/)
+- [agentgroundcrew-com Plans Pricing](https://apis.io/plans/agentgroundcrew-com/agentgroundcrew-com-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [Agentgroundcrew Com Rate Limits](https://apis.io/rate-limits/agentgroundcrew-com/agentgroundcrew-com-rate-limits/)
+- [agentgroundcrew-com Rate Limits](https://apis.io/rate-limits/agentgroundcrew-com/agentgroundcrew-com-rate-limits/)
 
 ## Where to find this API
 
@@ -127,18 +133,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 47.5** — developing · rubric 0.25.0 · scored 2026-10-30
+**Kin Score 45.3** — developing · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 65.0 |
+| Discoverability | 71.7 |
 | Contract quality | 34.7 |
-| Contract governance | 30.0 |
-| Operational transparency | 28.4 |
+| Contract governance | 8.3 |
+| Operational transparency | 28.6 |
 | Developer ergonomics | 45.2 |
-| Access clarity | 67.9 |
+| Access clarity | 70.2 |
 
-**Agent readiness 21.9** — agent-aware
+**Agent readiness 21.8** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -163,8 +169,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 35.7** — Payments
+**Regulatory alignment 30.4** — Payments
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agentgroundcrew-com/](https://apis.io/providers/agentgroundcrew-com/).
 
